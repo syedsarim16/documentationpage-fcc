@@ -1,0 +1,57 @@
+ @media (max-width: 600px) {
+      #navbar ul li {
+        margin-bottom:20px;
+        text-align:left;
+      }
+    }
+  body{
+    background-color:White;
+  }
+  .head{
+      font-style:times new roman;
+      font-weight:bold;
+      font-size:20;
+      border:2px solid black; 
+      border-radius:auto;
+
+  }
+  #navbar{
+    border: solid black;
+    width:auto;
+    position:absolute;
+    top:0;
+    left:0;
+    
+  }
+  .nav-link{
+    color:black;
+  }
+    #navbar ul li a:visited {
+      color:red; 
+    }
+  .code{
+    text-align:left;
+    font-family:sans-serif;
+    font-size:15px
+  }
+  #main-doc{
+    padding:20px;
+    margin:auto;
+    text-align:left;
+    position:absolute;
+    overflow:hidden;
+    padding-top:130px;
+
+  }
+ #navbar li {
+            border-bottom: 1px solid #000;
+            padding: 20px;
+            position:relative;
+            margin-right:auto;
+            padding-right:10px;
+        }
+#main-doc {
+            margin-left: 220px;
+            padding: 70px;
+            padding-top:0;
+        }
